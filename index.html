@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitrupt Trainee</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="form-container login-form">
+                    <img src="https://team.bitrupt.co/pluginfile.php/1/core_admin/logocompact/300x300/1604996907/Bitrupt.png" class="d-block m-auto" height="60px" width="60px" alt="bitrupt">
+                        
+                    <h1 class="login-head">Bitrupt Login</h1>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" placeholder="Enter password" id="password">
+                    </div>
+                    <a href="signUp.html" class="register">Don't have an account? Register Yourself!</a>
+                    <button type="submit" id="login-btn" onclick="login()" class="btn btn-business btn-block">Login</button>
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            </div>
+        </div>
+     </div>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

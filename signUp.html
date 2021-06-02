@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitrupt Trainee</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="form-container signup-form">
+                <img src="https://team.bitrupt.co/pluginfile.php/1/core_admin/logocompact/300x300/1604996907/Bitrupt.png" class="d-block m-auto" height="60px" width="60px" alt="bitrupt">
+                        
+                    <h1 class="login-head">Bitrupt Sign Up</h1>
+                    <div class="form-group">
+                        <label for="fname">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Full Name" id="fname">
+                      </div>
+                      <div class="form-group">
+                        <label for="contact">Contact</label>
+                        <input type="text" class="form-control" placeholder="Enter Phone Number" id="contact">
+                      </div>
+                      <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" placeholder="Enter Address" id="address">
+                      </div>
+                      
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control" placeholder="Enter Email" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" placeholder="Enter password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" class="form-control" placeholder="Re-enter password" id="password2">
+                      </div>
+                      <a href="index.html" class="register">Already have an account? Login to your account!</a>
+                    <button type="submit" id="signup-btn" onclick="signup()" class="btn btn-business btn-block">Sign Up</button>
+           
+              </div>
+                    
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            </div>
+        </div>
+     </div>
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
